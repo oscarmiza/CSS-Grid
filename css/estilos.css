@@ -4,6 +4,11 @@ padding: 0;
 font-family: Arial, Helvetica, sans-serif;
 
 }
+
+
+
+/*------- Aqui inicia el header */
+
 .cabacera {
     background-color: #24272A;
     height: 40px;
@@ -14,7 +19,6 @@ font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     margin: 0;
     
-
 }
 .cabecera-navbar{
     display: flex;
@@ -34,7 +38,98 @@ font-family: Arial, Helvetica, sans-serif;
     margin-left: 15px;
 }
 
+.cabacera li a {
+    text-decoration: none;
+    color: white;
+}
+
 .cabacera img {
     height: 20px;
 
 }
+
+/* -----Aqui termina el header */
+
+
+/* -----Aqui inicia la seccion principal */
+
+.hero {
+
+    background-image: url('../img/img_cover_home.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+   height: 60vh;
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: top center;
+    
+}
+
+main .titulo{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.45);
+
+}
+
+main p {
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.45);
+}
+
+.busqueda{
+    width: 70%;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.buscar{
+    border: none;
+    background-color: #303E48;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 5px;
+}
+
+body > main > div > input[type=text]{
+    width: inherit;
+    height: 2.2em;
+    border-radius: 7px;
+    margin: -45px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    /* border: none; */
+}
+
+.buscar img {
+    
+    border-radius: 7px;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+
+}
+
+input {
+    text-align: left;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+.buscar:hover{
+    cursor: pointer;
+}
+/* -----Aqui termina la seccion principal */
